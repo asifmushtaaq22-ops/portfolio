@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #0f172a;
+  color: #e5e7eb;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: #020617;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.logo span {
+  color: #38bdf8;
+}
+
+.btn {
+  text-decoration: none;
+  background: #38bdf8;
+  color: #020617;
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.btn.big {
+  padding: 14px 28px;
+  font-size: 16px;
+}
+
+/* HERO */
+.hero {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px;
+}
+
+.hero h1 {
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+
+.hero h1 span {
+  color: #38bdf8;
+}
+
+.hero p {
+  max-width: 600px;
+  margin: auto;
+  margin-bottom: 30px;
+  color: #cbd5f5;
+}
+
+/* SECTIONS */
+section {
+  padding: 70px 40px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #38bdf8;
+}
+
+/* ABOUT */
+.about p {
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.7;
+}
+
+/* SERVICES */
+.services {
+  background: #020617;
+}
+
+.service-box {
+  background: #0f172a;
+  margin: 20px auto;
+  max-width: 500px;
+  padding: 25px;
+  border-radius: 10px;
+  border: 1px solid #1e293b;
+}
+
+/* WHY */
+.why ul {
+  list-style: none;
+  max-width: 400px;
+  margin: auto;
+}
+
+.why li {
+  margin: 12px 0;
+  font-size: 18px;
+}
+
+/* CTA */
+.cta {
+  background: linear-gradient(135deg, #38bdf8, #0ea5e9);
+  color: #020617;
+}
+
+.cta p {
+  margin: 15px 0 25px;
+}
+
+/* FOOTER */
+footer {
+  background: #020617;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #94a3b8;
+  }
